@@ -1,0 +1,20 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@keyframes pulse {
+  0% {
+    transform: scale(1.05) rotate(0deg);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.15) rotate(3deg);
+    opacity: 0.15;
+  }
+  100% {
+    transform: scale(1.05) rotate(0deg);
+    opacity: 0.3;
+  }
+}
+.animate-pulse-subtle {
+  animation: pulse 3s infinite;
+}
