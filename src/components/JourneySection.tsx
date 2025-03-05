@@ -1,26 +1,28 @@
 import React from "react";
 export const JourneySection = () => {
   const timeline = [{
-    year: "2023",
-    title: "Senior Developer",
-    company: "Tech Innovations Inc",
-    description: "Leading development of cutting-edge web applications"
+    year: "2024",
+    title: "Business Analyst",
+    company: "Boss Cargo Express",
+    description: "Part of Analytics team that gathered data, emplement, and assures the quality for the system"
   }, {
-    year: "2021",
-    title: "Full Stack Developer",
-    company: "Digital Solutions Co",
-    description: "Developed scalable applications using modern technologies"
+    year: "2022",
+    title: "IT Technocal Support",
+    company: "DDC Land Inc.",
+    description: "Support and part of emplementation of ERP System from tailored company"
   }, {
-    year: "2019",
-    title: "Frontend Developer",
-    company: "StartUp Labs",
-    description: "Created responsive and interactive user interfaces"
-  }, {
-    year: "2018",
-    title: "Computer Science Degree",
-    company: "Tech University",
-    description: "Graduated with honors in Computer Science"
-  }];
+    year: "2022",
+    title: "Infromation Technology Degree",
+    company: "Cavite State University Imus Campus",
+    description: "Graduated with Honor in Bachelor of Science & Information Technology"
+  }, 
+  // {
+  //   year: "2018",
+  //   title: "Computer Science Degree",
+  //   company: "Tech University",
+  //   description: "Graduated with honors in Computer Science"
+  // }
+];
   return <section className="py-20 px-4">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12 text-white">

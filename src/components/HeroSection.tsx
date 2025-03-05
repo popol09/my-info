@@ -1,5 +1,6 @@
 import React from "react";
 import { Github, Mail, Linkedin } from "lucide-react";
+
 export const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
       {/* Geometric pattern background */}
@@ -36,6 +37,7 @@ export const HeroSection = () => {
               hover:scale-105
             " style={{
           backgroundImage: 'url("https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3")',
+          // backgroundImage: 'url("/photo2.jpg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)"
@@ -57,16 +59,16 @@ export const HeroSection = () => {
                 </span>
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-gray-400 mb-8 font-mono">
-                Full Stack Developer & Designer
+                Aspiring Full-Stack Developer & Designer
               </p>
               <div className="flex gap-6">
-                <a href="#" className="text-[#ADFF2F] hover:text-white transition-colors">
+                <a href="https://github.com/popol09" className="text-[#ADFF2F] hover:text-white transition-colors">
                   <Github size={24} />
                 </a>
                 <a href="#" className="text-[#ADFF2F] hover:text-white transition-colors">
                   <Linkedin size={24} />
                 </a>
-                <a href="#" className="text-[#ADFF2F] hover:text-white transition-colors">
+                <a href="mailto:delarosapauldelarosa@gmail.com?subject=Hello&body=Hi%20there!" className="text-[#ADFF2F] hover:text-white transition-colors">
                   <Mail size={24} />
                 </a>
               </div>
