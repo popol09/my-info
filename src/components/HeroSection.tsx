@@ -59,7 +59,7 @@ export const HeroSection = () => {
                 </span>
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-gray-400 mb-8 font-mono">
-                Aspiring Full-Stack Developer & Designer
+                Aspiring to be Developer & Designer
               </p>
               <div className="flex gap-6">
                 <a href="https://github.com/popol09" className="text-[#ADFF2F] hover:text-white transition-colors">
