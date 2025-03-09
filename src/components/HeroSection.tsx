@@ -65,7 +65,7 @@ export const HeroSection = () => {
                 <a href="https://github.com/popol09" className="text-[#ADFF2F] hover:text-white transition-colors">
                   <Github size={24} />
                 </a>
-                <a href="#" className="text-[#ADFF2F] hover:text-white transition-colors">
+                <a href="https://www.linkedin.com/in/john-paul-dela-rosa-8358411ba/" className="text-[#ADFF2F] hover:text-white transition-colors">
                   <Linkedin size={24} />
                 </a>
                 <a href="mailto:delarosapauldelarosa@gmail.com?subject=Hello&body=Hi%20there!" className="text-[#ADFF2F] hover:text-white transition-colors">
