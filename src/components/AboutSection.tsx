@@ -18,7 +18,7 @@ export const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-gray-300 leading-relaxed">
-              I'm a passionate developer with a love for creating innovative
+              I'm an aspring to be a developer with a love for creating innovative
               digital experiences. My journey in tech began with a curiosity
               about how things work, and it has evolved into a career crafting
               elegant solutions for complex problems.
