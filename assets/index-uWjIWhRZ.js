@@ -103,7 +103,7 @@ Error generating stack: `+o.message+`
               w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[800px]\r
               transition-transform duration-700 ease-in-out\r
               hover:scale-105\r
-            `,style:{backgroundImage:'url("https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3")',backgroundSize:"cover",backgroundPosition:"center",clipPath:"polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 100%, 0% 0%)"}})]}),g.jsx("div",{className:"relative z-10 max-w-7xl mx-auto px-4 md:px-12",children:g.jsx("div",{className:`\r
+            `,style:{backgroundImage:'url("ghibli me1.png")',backgroundSize:"cover",backgroundPosition:"center",clipPath:"polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 100%, 0% 0%)"}})]}),g.jsx("div",{className:"relative z-10 max-w-7xl mx-auto px-4 md:px-12",children:g.jsx("div",{className:`\r
             pt-[45vh] sm:pt-[50vh] md:pt-0\r
             md:min-h-screen flex items-center\r
             md:ml-[40%] lg:ml-[35%]\r
