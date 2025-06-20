@@ -6,5 +6,3 @@
 2. Run `npm run dev`
 
 
-## Tools and Help
-(https://magicpatterns.com)

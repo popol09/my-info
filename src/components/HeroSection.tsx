@@ -25,22 +25,23 @@ export const HeroSection = () => {
               top-1/2 -translate-y-1/2 -left-1/2
               w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[800px]
             " style={{
-          background: "linear-gradient(to right, transparent, #0A0A0A)",
+          // background: "linear-gradient(to right, transparent, #0A0A0A)",
           clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
           zIndex: 1
         }} />
           <div className="
               absolute 
-              top-1/2 -translate-y-1/2 -left-1/2
+              top-1/2 -translate-y-1/2 -left-1/4
               w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[800px]
               transition-transform duration-700 ease-in-out
               hover:scale-105
             " style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3")',
-          // backgroundImage: 'url("/photo2.jpg")',
+          // backgroundImage: 'url("https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3")',
+          backgroundImage: 'url("ghibli me1.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
-          clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)"
+          // clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)"
+          clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 100%, 0% 0%)"
         }} />
         </div>
         {/* Content */}
@@ -54,7 +55,7 @@ export const HeroSection = () => {
               <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold mb-6 text-white relative">
                 JOHN{" "}
                 <span className="text-[#ADFF2F] relative">
-                  DOE
+                  PAUL
                   <div className="absolute -bottom-2 left-0 w-full h-px bg-gradient-to-r from-[#ADFF2F] to-transparent" />
                 </span>
               </h1>
