@@ -36,8 +36,8 @@ export const HeroSection = () => {
               transition-transform duration-700 ease-in-out
               hover:scale-105
             " style={{
-          // backgroundImage: 'url("https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3")',
-          backgroundImage: 'url("ghibli me1.png")',
+          backgroundImage: 'url("https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3")',
+          // backgroundImage: 'url("ghibli me1.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           // clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)"
