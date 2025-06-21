@@ -1,5 +1,6 @@
 import React from "react";
 import { Github, Mail, Linkedin } from "lucide-react";
+import ghibliMe from '../assets/ghibliMe1.png';
 
 export const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
@@ -37,7 +38,8 @@ export const HeroSection = () => {
               hover:scale-105
             " style={{
           // backgroundImage: 'url("https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3")',
-          backgroundImage: 'url("ghibliMe1.png")',
+          // backgroundImage: 'url("ghibliMe1.png")',
+          backgroundImage: `url(${ghibliMe})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           // clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)"
