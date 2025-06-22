@@ -35,7 +35,7 @@ export const AboutSection = () => {
             <div className="space-y-2">
               <h3 className="text-[#ADFF2F] font-mono">Tech Stack</h3>
               <div className="flex flex-wrap gap-2">
-                {["HTML", "CSS", "JS", "SQL", "Github", "Figma", "Postman"].map(tech => <span key={tech} className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-sm">
+                {["HTML", "CSS", "JS", "SQL", "Github", "Figma", "Postman", "CPanel", "phpMyAdmin"].map(tech => <span key={tech} className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-sm">
                     {tech}
                   </span>)}
               </div>
