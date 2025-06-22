@@ -18,22 +18,24 @@ export const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-gray-300 leading-relaxed">
-              I'm an aspring to be a developer with a love for creating innovative
-              digital experiences. My journey in tech began with a curiosity
-              about how things work, and it has evolved into a career crafting
-              elegant solutions for complex problems.
+              I’m an aspiring developer and designer with a strong 
+              curiosity about how systems work. My journey began 
+              with an interest in understanding enterprise systems 
+              and the technologies behind them, which eventually led 
+              to a desire to contribute to their development.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies,
-              contributing to open-source projects, or mentoring aspiring
-              developers.
+              In my free time, I usually take online courses and 
+              try some coding challenges I find on the internet. 
+              I also enjoy replicating interesting projects or features 
+              I come across on the social media pages I follow.
             </p>
           </div>
           <div className="bg-gray-900 p-6 rounded-lg space-y-4">
             <div className="space-y-2">
               <h3 className="text-[#ADFF2F] font-mono">Tech Stack</h3>
               <div className="flex flex-wrap gap-2">
-                {["React", "TypeScript", "Node.js", "Python", "AWS", "Docker"].map(tech => <span key={tech} className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-sm">
+                {["HTML", "CSS", "JS", "SQL", "Github", "Figma", "Postman"].map(tech => <span key={tech} className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-sm">
                     {tech}
                   </span>)}
               </div>
@@ -41,7 +43,7 @@ export const AboutSection = () => {
             <div className="space-y-2">
               <h3 className="text-[#ADFF2F] font-mono">Interests</h3>
               <div className="flex flex-wrap gap-2">
-                {["AI/ML", "Web3", "UI/UX", "DevOps"].map(interest => <span key={interest} className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-sm">
+                {["ReactJS", "Tailwind", "NodeJS", "SAP", "Oracle ERP"].map(interest => <span key={interest} className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-sm">
                     {interest}
                   </span>)}
               </div>
