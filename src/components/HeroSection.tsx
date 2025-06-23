@@ -1,6 +1,7 @@
 import React from "react";
 import { Github, Mail, Linkedin } from "lucide-react";
 import ghibliMe from '../assets/ghibliMe1.png';
+import resume from '../assets/my_info.pdf';
 
 export const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
@@ -75,6 +76,13 @@ export const HeroSection = () => {
                   <Mail size={24} />
                 </a>
               </div>
+              <a
+                href={resume}
+                download="John_Paul_Dela_Rosa.pdf"
+                className="inline-block px-8 py-3 mt-8 bg-[#ADFF2F] text-black font-bold rounded-lg hover:bg-[#98DB29] transition-colors"
+              >
+                Resume
+              </a>
             </div>
           </div>
         </div>
