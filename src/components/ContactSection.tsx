@@ -14,7 +14,7 @@ export const ContactSection = () => {
           </button>
         </form> */}
         <form
-          action="https://formsubmit.com/delarosapauldelarosa@gmail.com"
+          action="https://formsubmit.co/delarosapauldelarosa@gmail.com"
           method="POST"
           className="space-y-6"
         >
