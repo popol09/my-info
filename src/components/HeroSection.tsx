@@ -1,7 +1,7 @@
 import React from "react";
 import { Github, Mail, Linkedin } from "lucide-react";
 import ghibliMe from '../assets/ghibliMe1.png';
-import resume from '../assets/my_info.pdf';
+import resume from '../assets/my-info.pdf';
 
 export const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
