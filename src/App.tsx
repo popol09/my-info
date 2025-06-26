@@ -16,7 +16,7 @@ export function App() {
         <JourneySection />
       </section>
       <section id="projects">
-        <ProjectSection />
+        {/* <ProjectSection /> */}
       </section>
       <section id="contact">
         <ContactSection />
