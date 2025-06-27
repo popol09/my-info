@@ -5,7 +5,7 @@ export const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "journey", "projects", "contact"];
+      const sections = ["home", "about", "journey", /*"projects",*/ "contact"];
       const scrollPosition = window.scrollY + 100;
       sections.forEach(section => {
         const element = document.getElementById(section);
@@ -43,7 +43,7 @@ export const Navigation = () => {
         border border-gray-800 md:border-none
         min-w-[200px] md:min-w-0
       `}>
-        {["HOME", "ABOUT", "JOURNEY", "PROJECTS", "CONTACT"].map(item => <li key={item}>
+        {["HOME", "ABOUT", "JOURNEY", /*"PROJECTS",*/ "CONTACT"].map(item => <li key={item}>
             <button onClick={() => scrollToSection(item.toLowerCase())} className={`text-sm font-mono transition-colors hover:text-[#ADFF2F] w-full text-left
                 ${activeSection === item.toLowerCase() ? "text-[#ADFF2F]" : "text-gray-400"}
               `}>
