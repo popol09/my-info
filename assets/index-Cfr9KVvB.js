@@ -77,7 +77,7 @@ Error generating stack: `+o.message+`
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const Ad=[["line",{x1:"4",x2:"20",y1:"12",y2:"12",key:"1e0a9i"}],["line",{x1:"4",x2:"20",y1:"6",y2:"6",key:"1owob3"}],["line",{x1:"4",x2:"20",y1:"18",y2:"18",key:"yk5zj1"}]],$d=vl("Menu",Ad),Ud=()=>{const[e,t]=Ie.useState("home"),[n,r]=Ie.useState(!1);Ie.useEffect(()=>{const o=()=>{const u=["home","about","journey","projects","contact"],i=window.scrollY+100;u.forEach(s=>{const c=document.getElementById(s);if(c){const h=c.offsetTop,m=c.offsetHeight;i>=h&&i<h+m&&t(s)}})};return window.addEventListener("scroll",o),()=>window.removeEventListener("scroll",o)},[]);const l=o=>{const u=document.getElementById(o);u==null||u.scrollIntoView({behavior:"smooth"}),r(!1)};return g.jsxs("nav",{className:"fixed top-0 right-0 z-50 p-6",children:[g.jsx("button",{onClick:()=>r(!n),className:"md:hidden text-[#ADFF2F] hover:text-white transition-colors",children:g.jsx($d,{size:24})}),g.jsx("ul",{className:`
+ */const Ad=[["line",{x1:"4",x2:"20",y1:"12",y2:"12",key:"1e0a9i"}],["line",{x1:"4",x2:"20",y1:"6",y2:"6",key:"1owob3"}],["line",{x1:"4",x2:"20",y1:"18",y2:"18",key:"yk5zj1"}]],$d=vl("Menu",Ad),Ud=()=>{const[e,t]=Ie.useState("home"),[n,r]=Ie.useState(!1);Ie.useEffect(()=>{const o=()=>{const u=["home","about","journey","contact"],i=window.scrollY+100;u.forEach(s=>{const c=document.getElementById(s);if(c){const h=c.offsetTop,m=c.offsetHeight;i>=h&&i<h+m&&t(s)}})};return window.addEventListener("scroll",o),()=>window.removeEventListener("scroll",o)},[]);const l=o=>{const u=document.getElementById(o);u==null||u.scrollIntoView({behavior:"smooth"}),r(!1)};return g.jsxs("nav",{className:"fixed top-0 right-0 z-50 p-6",children:[g.jsx("button",{onClick:()=>r(!n),className:"md:hidden text-[#ADFF2F] hover:text-white transition-colors",children:g.jsx($d,{size:24})}),g.jsx("ul",{className:`
         flex flex-col md:flex-row gap-6
         ${n?"block":"hidden"} md:flex
         absolute md:relative
@@ -87,7 +87,7 @@ Error generating stack: `+o.message+`
         rounded-lg md:rounded-none
         border border-gray-800 md:border-none
         min-w-[200px] md:min-w-0
-      `,children:["HOME","ABOUT","JOURNEY","PROJECTS","CONTACT"].map(o=>g.jsx("li",{children:g.jsx("button",{onClick:()=>l(o.toLowerCase()),className:`text-sm font-mono transition-colors hover:text-[#ADFF2F] w-full text-left
+      `,children:["HOME","ABOUT","JOURNEY","CONTACT"].map(o=>g.jsx("li",{children:g.jsx("button",{onClick:()=>l(o.toLowerCase()),className:`text-sm font-mono transition-colors hover:text-[#ADFF2F] w-full text-left
                 ${e===o.toLowerCase()?"text-[#ADFF2F]":"text-gray-400"}
               `,children:o})},o))})]})},Bd="/my-info/assets/ghibliMe1-DIB_UAg6.png",Vd="/my-info/assets/my-info-DgXDXu75.pdf",Hd=()=>g.jsxs("section",{id:"home",className:"relative min-h-screen flex items-center overflow-hidden",children:[g.jsx("div",{className:"absolute inset-0 opacity-10",children:[...Array(20)].map((e,t)=>g.jsx("div",{className:"absolute border border-[#ADFF2F]",style:{left:`${Math.random()*100}%`,top:`${Math.random()*100}%`,width:`${Math.random()*50+20}px`,height:`${Math.random()*50+20}px`,transform:`rotate(${Math.random()*360}deg)`}},t))}),g.jsxs("div",{className:"relative w-full",children:[g.jsxs("div",{className:`\r
             absolute left-0 top-0 h-full\r
